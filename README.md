@@ -2,12 +2,11 @@
 
 ## Step 1: First time need to install
 
+<img align="center" src="src/assents/demo.gif" width="250">
+
 ````bash
 # using npm
 npm install
-
-<img align="center" src="src/assents/demo.gif" width="250">
-
 
 
 
