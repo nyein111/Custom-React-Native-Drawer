@@ -1,10 +1,58 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<h1>React Native Custom Drawer </h1>
 
-# Getting Started
+## Step 1: First time need to install
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+````bash
+# using npm
+npm install
 
-## Step 1: Start the Metro Server
+<img align="center" src="src/assents/demo.gif" width="250">
+
+
+
+
+## Step 2 : Need to configure navigation
+
+=> https://reactnavigation.org/docs/getting-started
+
+=> npm install @react-navigation/native
+
+=> npm install react-native-screens react-native-safe-area-context
+
+
+
+
+## Step 3 : Need to configure react-native-gesture-handler
+
+=> https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started
+
+=> npm install --save react-native-gesture-handler
+
+
+
+
+## Step 4 : Need to configure react-native-reanimated
+
+=> https://docs.swmansion.com/react-native-gesture-handler/docs/fundamentals/installation
+
+=> npm install react-native-reanimated
+
+=> Add react-native-reanimated/plugin plugin to your babel.config.js.
+
+  module.exports = {
+    presets: [
+      ... // don't add it here :)
+    ],
+    plugins: [
+      ...
+      'react-native-reanimated/plugin',
+    ],
+  };
+
+
+
+
+## Step 5 : Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
@@ -16,7 +64,7 @@ npm start
 
 # OR using Yarn
 yarn start
-```
+````
 
 ## Step 2: Start your Application
 
@@ -58,22 +106,3 @@ Now that you have successfully run the app, let's modify it.
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
